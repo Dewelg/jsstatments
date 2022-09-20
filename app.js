@@ -1,4 +1,12 @@
-console.log("Hello World!\n==========\n");
-console.log(
-  "Follow the steps in the README.md file to complete the exercises:\n==========\n"
-);
+let favNumber = 24;
+let input = window.prompt('enter a number');
+
+if (favNumber < input){
+  console.log('to high');
+} else if (favNumber == input){
+  console.log('Correct');
+} else if (favNumber > input){
+  console.log('to low');
+} 
+
+
